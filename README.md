@@ -1,38 +1,46 @@
-Bank Management System in Java
-Overview
+The Bank Management System is a simple Java console-based application that simulates basic banking operations. It allows users to create accounts, deposit money, withdraw money, check balance, and delete accounts using a secure PIN system.
 
-This is a simple Bank Management System implemented in Java. It allows users to create accounts, deposit money, withdraw money, and check account balance. The system uses object-oriented programming concepts like classes, objects, and encapsulation.
-
-The application runs in the console and provides a menu-driven interface for user interaction.
-
+This project is designed using Object-Oriented Programming (OOP) concepts in Java.
 Features
 
-Create Account
+Create new bank account
 
-Users can create a new bank account by entering:
+Deposit money
 
-Account Number
+Withdraw money
 
-Account Holder Name
+Check account balance
 
-Initial Balance
+Delete account
 
-PIN for authentication
+PIN verification for security
 
-Deposit Money
+Menu-driven console interface
 
-Users can deposit money into their account after entering their account number and PIN.
+Technologies Used
 
-Withdraw Money
+Java
 
-Users can withdraw money from their account after entering their account number and PIN.
+OOP Concepts (Classes & Objects)
 
-Ensures there is enough balance before allowing withdrawal.
+Arrays
 
-Check Balance
+Scanner (User Input)
 
-Users can check their account balance after entering their account number and PIN.
-
-Exit
-
-Allows users to exit the system gracefully.
+bank/
+│
+├── bankmangement.java
+│
+├── class ACCOUNT
+│     ├── deposit()
+│     ├── withdraw()
+│     ├── checkbalance()
+│     └── pin()
+│
+└── class bank
+      ├── create_account()
+      ├── deposit()
+      ├── withdraw()
+      ├── balance()
+      ├── delete()
+      └── find_account()
